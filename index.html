@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script defer src="main.js"></script>
+    <title>ToDo List App</title>
+</head>
+<body>
+    <h1>Awesome ToDo List</h1>
+    <div class="todo-con">
+        <div class="add-task">
+            <input type="text">
+            <span onclick="addItem()" class="plus">+</span>
+        </div>
+        <div class="task-content">
+            <span class="del-all">Delete All</span>
+            <div class="spans">
+                <span class="no-task">Write Tasks To Show Here</span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="task-stats">
+        <div class="task-count">
+            You Have <span>0</span> Tasks
+        </div>
+        <div class="task-complete">
+            You've Done <span>0</span> Tasks
+        </div>
+    </div>
+</body>
+</html>
